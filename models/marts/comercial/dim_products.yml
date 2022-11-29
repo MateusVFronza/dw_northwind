@@ -1,0 +1,54 @@
+version: 2
+models:
+  - name: dim_products
+    description: Dimensão com informação de produtos com categorias e fornecedores.
+    columns:
+      - name: sk_produto
+        description: E a primary key da dimensão de produtos.
+        tests:
+          - unique
+          - not_null
+      - name: id_produto
+        description: Nao documentado ainda - fazer
+      - name: id_fornecedor
+        description: Nao documentado ainda - fazer	
+      - name: id_categoria
+        description: Nao documentado ainda - fazer	
+      - name: nome_produto
+        description: Nao documentado ainda - fazer			
+      - name: quantidade_por_unidade
+        description: Nao documentado ainda - fazer
+      - name: preco_unitario
+        description: Nao documentado ainda - fazer
+      - name: unidades_no_estoque
+        description: Nao documentado ainda - fazer		
+      - name: unidades_por_ordem
+        description: Nao documentado ainda - fazer			
+      - name: level_de_pedido
+        description: Nao documentado ainda - fazer		
+      - name: is_discontinuado
+        description: Nao documentado ainda - fazer
+      - name: nome_categoria
+        description: Nao documentado ainda - fazer			
+      - name: descricao
+        description: Nao documentado ainda - fazer
+      - name: nome_fornecedor
+        description: Nao documentado ainda - fazer
+      - name: nome_contato_fornecedor
+        description: Nao documentado ainda - fazer
+      - name: titulo_contato_fornecedor
+        description: Nao documentado ainda - fazer
+      - name: endereco_fornecedor
+        description: Nao documentado ainda - fazer
+      - name: codigo_postal_fornecedor
+        description: Nao documentado ainda - fazer
+      - name: cidade_fornecedor
+        description: Nao documentado ainda - fazer
+      - name: regiao_fornecedor
+        description: Nao documentado ainda - fazer
+      - name: pais_fornecedor
+        description: Nao documentado ainda - fazer
+      - name: fax_fornecedor
+        description: Nao documentado ainda - fazer
+      - name: telefone_fornecedor
+        description: Nao documentado ainda - fazer
