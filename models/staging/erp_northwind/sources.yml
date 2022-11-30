@@ -13,7 +13,19 @@ sources:
             tests:
               - unique
               - not_null
+      - name: order_details
+        description: Detalha de item linha para cada pedido da tabela ordens
       - name: products
+        description: Tabela com os produtos comercializados pela northwind
       - name: categories
+        description: Tabela com as categorias dos produtos comercializados pela northwind
       - name: suppliers
+        description: Fornecedores dos produtos comercializados pela northwind
+      - name: employees
+        description: Tabela com informação dos funcionários da northwind e seus gerentes
       - name: shippers
+        description: Transportadoras utilizadas na realização de entregas dos pedidos fechados
+      - name: customers
+        description: Informações dos clientes da northwind
+
+
