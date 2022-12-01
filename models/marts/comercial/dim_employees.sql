@@ -15,13 +15,13 @@ with
             , funcionarios.cargo
             , funcionarios.data_de_contratacao
             , gerentes.nome_completo_funcionario as gerente
-            , funcionarios.endereco
-            , funcionarios.cep
-            , funcionarios.cidade
-            , funcionarios.regiao
-            , funcionarios.pais
-            , funcionarios.telefone
-            , funcionarios.observacoes
+            , funcionarios.endereco as endereco_funcionario
+            , funcionarios.cep as cep_funcionario
+            , funcionarios.cidade as cidade_funcionario
+            , funcionarios.regiao as regiao_funcionario
+            , funcionarios.pais as pais_funcionario
+            , funcionarios.telefone as telefone_funcionario
+            , funcionarios.observacoes as observacoes_funcionario
         from funcionarios
         left join funcionarios as gerentes on
             funcionarios.id_gerente = gerentes.id_funcionario
